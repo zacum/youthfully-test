@@ -11,6 +11,11 @@ function App() {
   const [detail, setDetail] = useState<IImage>();
   return (
     <>
+      <Routes>
+        <Route path='/' element={<Home setDetail={setDetail} />} />
+        <Route path='/details' element={<Details {...detail} />} />
+      </Routes>
+      <Loading />
     </>
   );
 }
