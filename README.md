@@ -9,7 +9,7 @@ This project helps users to filter and see images and details from Imgur.
 ### Pipeline
 
 The main branch for the development is `dev` and `main` branch is directly connected with the hosting server.
-CI/CD is supported Vercel.com, we are using vercel for the hosting service.
+CI/CD is supported by Vercel.com, we are using vercel for the hosting service.
 
 ### Development guideline
 
